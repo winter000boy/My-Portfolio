@@ -1,511 +1,270 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <!-- Required meta tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- SEO Meta Tags -->
-    <title>Durgesh Sharma | Java Backend Developer Portfolio</title>
-    <meta name="description" content="Official portfolio of Durgesh Sharma — Software Engineer specializing in Java, Spring Boot, Angular, and Microservices architecture. Explore projects, skills, and experience.">
-    <meta name="keywords" content="Durgesh Sharma, Java Developer, Spring Boot, Angular, Microservices, Full Stack Developer, Backend Engineer, Portfolio, Software Engineer India, PCF, PostgreSQL">
-    <meta name="author" content="Durgesh Sharma">
-
-    <!-- Open Graph Meta Tags for Social Media Preview -->
-    <meta property="og:title" content="Durgesh Sharma | Java Backend Developer Portfolio">
-    <meta property="og:description" content="Explore the work and skills of Durgesh Sharma, a full stack software engineer with expertise in Java, Spring Boot, Angular, and Microservices.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://your-portfolio-domain.com">
-    <meta property="og:image" content="https://your-portfolio-domain.com/assets/img/preview.jpg">
-
-    <!-- Twitter Card Meta -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Durgesh Sharma | Java Backend Developer Portfolio">
-    <meta name="twitter:description" content="Java Backend Developer skilled in Spring Boot, Angular, Microservices & PCF. Check out my projects and experience.">
-    <meta name="twitter:image" content="https://your-portfolio-domain.com/assets/img/preview.jpg">
-
-    <!-- Favicon -->
-    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
-
-    <!-- Font Icons -->
-    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-
-    <!-- Bootstrap + Main CSS -->
-    <link rel="stylesheet" href="assets/css/Durgesh.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Durgesh Sharma — Backend Engineer</title>
+  <meta name="description" content="Durgesh Sharma — Java backend engineer building policy, access-control and AI governance services at Privacera · Trust3 AI.">
+  <meta name="theme-color" content="#0A0A0A">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230A0A0A'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' dominant-baseline='middle' font-family='Arial Black,Arial' font-weight='900' font-size='30' fill='%23FF2D95'%3ED%3Ctspan fill='%2333B5E5'%3ES%3C/tspan%3E%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&family=Space+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
 
+  <header class="nav" id="top">
+    <a class="brand" href="#top" aria-label="Durgesh Sharma, home">DS<span>.</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+    <nav id="nav-links" class="nav-links">
+      <a href="#about">About</a>
+      <a href="#work">Trust3</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-
-    <!-- Components Button -->
-    <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600" aria-label="UI Components">
-        <i class="ti-shift-left-alt"></i> Components
-    </a>
-
-    <!-- Hero Header -->
-    <header class="header">
-        <div class="container">
-            
-            <!-- Social Media Icons -->
-            <ul class="social-icons pt-3">
-                <li class="social-item">
-                    <a class="social-link text-light" href="https://twitter.com/" target="_blank" aria-label="Twitter">
-                        <i class="ti-twitter" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="social-item">
-                    <a class="social-link text-light" href="mailto:sharmajidurgesh04@gmail.com" aria-label="Email">
-                        <i class="ti-google" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="social-item">
-                    <a class="social-link text-light" href="https://instagram.com/" target="_blank" aria-label="Instagram">
-                        <i class="ti-instagram" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="social-item">
-                    <a class="social-link text-light" href="https://github.com/winter000boy" target="_blank" aria-label="GitHub">
-                        <i class="ti-github" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="social-item">
-                    <a class="social-link text-light" href="https://linkedin.com/in/sharmajidurgesh" target="_blank" aria-label="LinkedIn">
-                        <i class="ti-linkedin" aria-hidden="true"></i>
-                    </a>
-                </li>
-            </ul>
-
-            <!-- Hero Content -->
-            <div class="header-content">
-                <h4 class="header-subtitle">Hello, I am</h4>
-                <h1 class="header-title">Durgesh Sharma</h1>
-                <h6 class="header-mono">Java Backend Developer | Spring Boot | Angular | Microservices</h6>
-                <a href="Durgesh_Sharma_Resume.pdf" class="btn btn-primary btn-rounded download-cv-btn" target="_blank">
-                    <i class="ti-download pr-2"></i>Download Resume
-                </a>
-            </div>
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Backend engineer · AI &amp; data governance</p>
+        <h1 class="display">
+          <span class="blue">DURGESH</span>
+          <span class="rose">SHARMA</span>
+        </h1>
+        <p class="lede">I build the Java services that decide <em>who can see what</em> — policy engines, access control and data masking for <strong>Privacera&nbsp;·&nbsp;Trust3&nbsp;AI</strong>.</p>
+        <div class="cta">
+          <a class="btn btn-rose" href="#contact"><span class="arrow">→</span> Let's talk</a>
+          <a class="btn btn-ghost" href="assets/Durgesh-Sharma-Resume.pdf" download>Download résumé</a>
         </div>
-    </header>
+        <ul class="hero-meta">
+          <li><span>Based in</span>Nashik, India</li>
+          <li><span>Now</span>Privacera · Trust3 AI</li>
+          <li><span>Stack</span>Java · Spring Boot</li>
+        </ul>
+      </div>
 
- 
-<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
-    <div class="container">
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#skills" class="nav-link">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#resume" class="nav-link">Experience</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav brand">
-                <img src="assets/imgs/avatar.jpg" alt="Profile Picture of Durgesh Sharma" class="brand-img">
-                <li class="brand-txt">
-                    <h5 class="brand-title">Durgesh Sharma</h5>
-                    <div class="brand-subtitle">Java Backend Developer</div>
-                </li>
-            </ul>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a href="#projects" class="nav-link">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#certifications" class="nav-link">Certifications</a>
-                </li>
-                <li class="nav-item last-item">
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
-            </ul>
-        </div>
+      <figure class="portrait">
+        <div class="portrait-ring"></div>
+        <img src="assets/durgesh.png" alt="Portrait of Durgesh Sharma" width="720" height="720">
+        <figcaption class="mono">// building trust into data</figcaption>
+      </figure>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Java</span><i>✦</i><span>Spring Boot</span><i>✦</i><span>REST APIs</span><i>✦</i><span>Snowflake</span><i>✦</i><span>Databricks</span><i>✦</i><span>PostgreSQL</span><i>✦</i><span>Data Masking</span><i>✦</i><span>Access Control</span><i>✦</i><span>AI Governance</span><i>✦</i>
+        <span>Java</span><i>✦</i><span>Spring Boot</span><i>✦</i><span>REST APIs</span><i>✦</i><span>Snowflake</span><i>✦</i><span>Databricks</span><i>✦</i><span>PostgreSQL</span><i>✦</i><span>Data Masking</span><i>✦</i><span>Access Control</span><i>✦</i><span>AI Governance</span><i>✦</i>
+      </div>
     </div>
-</nav>
 
-    <div class="container-fluid">
-    <div id="about" class="row about-section">
-        <div class="col-lg-4 about-card">
-            <h3 class="font-weight-light">Who am I ?</h3>
-            <span class="line mb-5"></span>
-            <h5 class="mb-3">Java Backend Developer Located in Nashik, India</h5>
-            <p class="mt-20">
-                I specialize in Java, Spring Boot, Angular, and microservices. With a strong foundation in full-stack
-                development and cloud-native practices, I build scalable and secure enterprise-grade applications. I
-                thrive in Agile environments and aim to deliver impactful backend solutions.
-            </p>
-            <a href="Durgesh_Sharma_Resume.pdf" class="btn btn-outline-danger download-cv-btn" target="_blank">
-                <i class="icon-down-circled2"></i>Download My CV
-            </a>
+    <!-- ABOUT -->
+    <section id="about" class="section reveal">
+      <p class="label"><span>01</span> About</p>
+      <div class="about-grid">
+        <h2 class="headline">Backend first.<br><span class="rose">Security</span> always.</h2>
+        <div class="prose">
+          <p>I'm a Java backend developer with a B.E. in Artificial Intelligence &amp; Data Science. My day job sits where data platforms meet security: designing APIs that manage policies, and making sure those policies are actually enforced on Snowflake and Databricks.</p>
+          <p>I care about clean service boundaries, predictable APIs and code that the next engineer can review in one pass. Outside work I build full-stack side projects — ERPs, real-time chat, ML experiments — to keep learning in public.</p>
         </div>
+      </div>
+      <dl class="stats">
+        <div><dt>60+</dt><dd>public repos on GitHub</dd></div>
+        <div><dt>2</dt><dd>cloud data platforms integrated</dd></div>
+        <div><dt>B.E.</dt><dd>AI &amp; Data Science, 2025</dd></div>
+      </dl>
+    </section>
 
-        <div class="col-lg-4 about-card">
-            <h3 class="font-weight-light">Personal Info</h3>
-            <span class="line mb-5"></span>
-            <ul class="mt40 info list-unstyled">
-                <li><span>LinkedIn</span> : <a href="https://linkedin.com/in/sharmajidurgesh" target="_blank">sharmajidurgesh</a></li>
-                <li><span>Email</span> : <a href="mailto:sharmajidurgesh04@gmail.com">sharmajidurgesh04@gmail.com</a></li>
-                <li><span>Phone</span> : +91 82628 20678</li>
-                <li><span>GitHub</span> : <a href="https://github.com/winter000boy" target="_blank">winter000boy</a></li>
-                <li><span>Address</span> : Balram Nagar, Ozar Road, Panchavati, Nashik - 03</li>
-            </ul>
-            <ul class="social-icons pt-3">
-                <li class="social-item"><a class="social-link" href="https://twitter.com/" target="_blank"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link" href="mailto:sharmajidurgesh04@gmail.com"><i class="ti-google" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link" href="https://instagram.com/" target="_blank"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link" href="https://github.com/winter000boy" target="_blank"><i class="ti-github" aria-hidden="true"></i></a></li>
-            </ul>
+    <!-- WORK -->
+    <section id="work" class="section reveal">
+      <p class="label"><span>02</span> What I do at Trust3</p>
+      <div class="work-head">
+        <h2 class="headline">Privacera <span class="blue">·</span> Trust3&nbsp;AI</h2>
+        <p class="mono muted">Java Developer · Nov 2025 — Present</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <span class="card-no mono">/01</span>
+          <h3>Policy &amp; access APIs</h3>
+          <p>Design and build REST APIs for policy management and data-access-control workflows in Spring Boot.</p>
+        </article>
+        <article class="card">
+          <span class="card-no mono">/02</span>
+          <h3>Snowflake &amp; Databricks</h3>
+          <p>Integrations that push masking and access policies down to cloud data platforms and keep them enforced.</p>
+        </article>
+        <article class="card">
+          <span class="card-no mono">/03</span>
+          <h3>AI governance</h3>
+          <p>Backend work on Trust3's AI governance platform — the services that govern how AI agents and apps touch data.</p>
+        </article>
+        <article class="card">
+          <span class="card-no mono">/04</span>
+          <h3>Runtime upgrades</h3>
+          <p>Partnered with data-engineering and security teams to move services onto newer Java runtime versions.</p>
+        </article>
+        <article class="card">
+          <span class="card-no mono">/05</span>
+          <h3>Performance &amp; debugging</h3>
+          <p>Profile, debug and tune backend services to cut latency on the policy-enforcement path.</p>
+        </article>
+        <article class="card">
+          <span class="card-no mono">/06</span>
+          <h3>Ship it properly</h3>
+          <p>Jira-tracked work, GitLab merge requests, reviewed code and ADRs — with AI-assisted development in the loop.</p>
+        </article>
+      </div>
+
+      <ol class="timeline">
+        <li>
+          <span class="mono">Nov 2025 — Now</span>
+          <div><strong>Java Developer</strong> · Privacera India Pvt. Ltd. (Trust3 AI)</div>
+        </li>
+        <li>
+          <span class="mono">Nov 2024 — Feb 2025</span>
+          <div><strong>Java Developer Intern</strong> · Infosys Springboard — Spring Boot REST APIs for an e-commerce platform</div>
+        </li>
+        <li>
+          <span class="mono">2021 — 2025</span>
+          <div><strong>B.E., AI &amp; Data Science</strong> · PVG's College of Engineering, Nashik</div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section reveal">
+      <p class="label"><span>03</span> Skills</p>
+      <h2 class="headline">The <span class="blue">toolkit</span>.</h2>
+
+      <div class="skills">
+        <div class="skill-group">
+          <h3>Languages &amp; frameworks</h3>
+          <ul class="chips">
+            <li class="hot">Java</li><li class="hot">Spring Boot</li><li>Spring MVC</li><li>Hibernate / JPA</li><li>Python</li><li>HTML / CSS</li>
+          </ul>
         </div>
-
-        <div class="col-lg-4 about-card">
-            <h3 class="font-weight-light">My Expertise</h3>
-            <span class="line mb-5"></span>
-            <div class="row">
-                <div class="col-1 text-danger pt-1"><i class="ti-server icon-lg"></i></div>
-                <div class="col-10 ml-auto mr-3">
-                    <h6>Backend Development</h6>
-                    <p class="subtitle">Java, Spring Boot, REST APIs, Microservices, PostgreSQL, Oracle</p>
-                    <hr>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-1 text-danger pt-1"><i class="ti-desktop icon-lg"></i></div>
-                <div class="col-10 ml-auto mr-3">
-                    <h6>Frontend Development</h6>
-                    <p class="subtitle">Angular, HTML5, CSS, TypeScript</p>
-                    <hr>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-1 text-danger pt-1"><i class="ti-cloud icon-lg"></i></div>
-                <div class="col-10 ml-auto mr-3">
-                    <h6>Cloud & DevOps</h6>
-                    <p class="subtitle">PCF, Git, Maven, Agile, CI/CD, TDD</p>
-                    <hr>
-                </div>
-            </div>
+        <div class="skill-group">
+          <h3>Data &amp; cloud</h3>
+          <ul class="chips">
+            <li class="hot">Snowflake</li><li class="hot">Databricks</li><li>PostgreSQL</li><li>MySQL</li><li>AWS</li>
+          </ul>
         </div>
-    </div>
-</div>
-
-<!--Resume Section-->
-<section class="section" id="resume">
-    <div class="container">
-        <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
-        <div class="row">
-            <!-- Expertise -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card">
-                    <div class="card-header">
-                        <div class="mt-2">
-                            <h4>Expertise</h4>
-                            <span class="line"></span>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <h6 class="title text-danger">Full Stack Java Development</h6>
-                        <p class="subtitle">Experienced in developing scalable microservices using Java, Spring Boot, and integrating RESTful APIs with Angular-based UIs.</p>
-                        <hr>
-                        <h6 class="title text-danger">Cloud-Native & Agile Practices</h6>
-                        <p class="subtitle">Proficient with PCF deployments, Git, CI/CD pipelines, and Agile methodologies. Strong understanding of 12-factor app principles and TDD.</p>
-                        <hr>
-                        <h6 class="title text-danger">Database Engineering</h6>
-                        <p class="subtitle">Skilled in PostgreSQL and Oracle with hands-on experience designing, optimizing, and integrating robust database systems in backend applications.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Education -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card">
-                    <div class="card-header">
-                        <div class="mt-2">
-                            <h4>Education</h4>
-                            <span class="line"></span>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <h6 class="title text-danger">Dec 2021 – Jun 2025</h6>
-                        <p>B.E Artificial Intelligence & Data Science</p>
-                        <p class="subtitle">Pune Vidyarthi Griha's COE & Shrikrushna Dhamankar Institute of Management, Nashik</p>
-                        <hr>
-                        <h6 class="title text-danger">2018 – 2020</h6>
-                        <p>Higher Secondary (Science)</p>
-                        <hr>
-                        <h6 class="title text-danger">2018</h6>
-                        <p>High School</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Skills & Languages -->
-            <div class="col-lg-4">
-                <!-- Skills -->
-                <div class="card">
-                    <div class="card-header">
-                        <div class="pull-left">
-                            <h4 class="mt-2">Skills</h4>
-                            <span class="line"></span>
-                        </div>
-                    </div>
-                    <div class="card-body pb-2">
-                        <h6>Java</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 95%"></div>
-                        </div>
-                        <h6>Spring Boot</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 92%"></div>
-                        </div>
-                        <h6>Angular</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 85%"></div>
-                        </div>
-                        <h6>PostgreSQL</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 88%"></div>
-                        </div>
-                        <h6>HTML/CSS/JavaScript</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%"></div>
-                        </div>
-                        <h6>PCF & CI/CD</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 75%"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Languages -->
-                <div class="card">
-                    <div class="card-header">
-                        <div class="pull-left">
-                            <h4 class="mt-2">Languages</h4>
-                            <span class="line"></span>
-                        </div>
-                    </div>
-                    <div class="card-body pb-2">
-                        <h6>English</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%"></div>
-                        </div>
-                        <h6>Hindi</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 98%"></div>
-                        </div>
-                        <h6>Marathi</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%"></div>
-                        </div>
-                        <h6>Japanese</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 55%"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="skill-group">
+          <h3>Security &amp; governance</h3>
+          <ul class="chips">
+            <li class="hot">Policy enforcement</li><li class="hot">Access control</li><li>Data masking</li><li>Encryption</li><li>AI governance</li>
+          </ul>
         </div>
-    </div>
-</section>
-
-
-   <section class="section" id="service">
-    <div class="container">
-        <h2 class="mb-5 pb-4"><span class="text-danger">My</span> Achievements</h2>
-        <div class="row">
-            <div class="col-md-4 col-sm-6">
-                <div class="card mb-5">
-                    <div class="card-header has-icon">
-                        <i class="ti-light-bulb text-danger" aria-hidden="true"></i>
-                    </div>
-                    <div class="card-body px-4 py-3">
-                        <h5 class="mb-3 card-title text-dark">Smart India Hackathon 2024</h5>
-                        <p class="subtitle">Participated in India's largest innovation model hosted by AICTE & MHRD. Developed AI-driven solutions for real-world industrial problems.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6">
-                <div class="card mb-5">
-                    <div class="card-header has-icon">
-                        <i class="ti-world text-danger" aria-hidden="true"></i>
-                    </div>
-                    <div class="card-body px-4 py-3">
-                        <h5 class="mb-3 card-title text-dark">NASA Space Apps Challenge 2024</h5>
-                        <p class="subtitle">Engaged in the world's largest global hackathon, building solutions using NASA's open data for space and Earth-related challenges.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6">
-                <div class="card mb-5">
-                    <div class="card-header has-icon">
-                        <i class="ti-reload text-danger" aria-hidden="true"></i>
-                    </div>
-                    <div class="card-body px-4 py-3">
-                        <h5 class="mb-3 card-title text-dark">ISRO Hackathon 2024</h5>
-                        <p class="subtitle">Built AI-powered satellite image processing tools and data-driven insights for space research and defense applications.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6">
-                <div class="card mb-5">
-                    <div class="card-header has-icon">
-                        <i class="ti-star text-danger" aria-hidden="true"></i>
-                    </div>
-                    <div class="card-body px-4 py-3">
-                        <h5 class="mb-3 card-title text-dark">Avishkar by GeeksforGeeks (2024)</h5>
-                        <p class="subtitle">Showcased innovative AI-based automation projects among top engineering students and received jury appreciation for technical excellence.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6">
-                <div class="card mb-5">
-                    <div class="card-header has-icon">
-                        <i class="ti-trophy text-danger" aria-hidden="true"></i>
-                    </div>
-                    <div class="card-body px-4 py-3">
-                        <h5 class="mb-3 card-title text-dark">Anveshna Mumbai 2025 – 3rd Prize Winner</h5>
-                        <p class="subtitle">Awarded 3rd Prize among 150+ teams for presenting a scalable AI-based solution in environmental tech. Recognized for innovation and impact.</p>
-                    </div>
-                </div>
-            </div>
+        <div class="skill-group">
+          <h3>Architecture</h3>
+          <ul class="chips">
+            <li>REST APIs</li><li>Microservices</li><li>System design</li><li>Database design</li>
+          </ul>
         </div>
-    </div>
-</section>
-
-
-    <section class="section bg-custom-gray" id="portfolio">
-  <div class="container">
-    <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
-    <div class="row" id="portfolio-container">
-      <!-- Project cards will be inserted here dynamically -->
-    </div>
-  </div>
-</section>
-
-<script>
-  async function loadPortfolio() {
-    const res = await fetch('https://api.github.com/users/winter000boy/repos?sort=updated&per_page=6');
-    const projects = await res.json();
-    const container = document.getElementById('portfolio-container');
-
-    projects.forEach(proj => {
-      const { name, description, html_url, language } = proj;
-      container.innerHTML += `
-        <div class="col-md-6 col-lg-4 mb-4">
-          <div class="card h-100">
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title">${name}</h5>
-              <p class="card-subtitle mb-2 text-muted">${language || ''}</p>
-              <p class="card-text flex-grow-1">${description || 'No description provided.'}</p>
-              <a href="${html_url}" class="btn btn-primary mt-auto" target="_blank">View on GitHub</a>
-            </div>
-          </div>
-        </div>`;
-    });
-  }
-
-  document.addEventListener('DOMContentLoaded', loadPortfolio);
-</script>
-
-   
-
-   <div class="section contact" id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8">
-                <div class="contact-form-card">
-                    <h4 class="contact-title">Send a message</h4>
-                    <form action="">
-                        <div class="form-group">
-                            <input class="form-control" type="text" placeholder="Name *" required>
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" type="email" placeholder="Email *" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" placeholder="Message *" rows="7" required></textarea>
-                        </div>
-                        <div class="form-group ">
-                            <button type="submit" class="form-control btn btn-primary">Send Message</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="contact-info-card">
-                    <h4 class="contact-title">Get in touch</h4>
-                    <div class="row mb-2">
-                        <div class="col-1 pt-1 mr-1">
-                            <i class="ti-mobile icon-md"></i>
-                        </div>
-                        <div class="col-10 ">
-                            <h6 class="d-inline">Phone : <br> <span class="text-muted">+ (91) 826 282 0678</span></h6>
-                        </div>
-                    </div>
-                    <div class="row mb-2">
-                        <div class="col-1 pt-1 mr-1">
-                            <i class="ti-map-alt icon-md"></i>
-                        </div>
-                        <div class="col-10">
-                            <h6 class="d-inline">Address :<br> <span class="text-muted">Balram ngr, Ozar rd., Panchavati, Nashik, Maharashtra, India</span></h6>
-                        </div>
-                    </div>
-                    <div class="row mb-2">
-                        <div class="col-1 pt-1 mr-1">
-                            <i class="ti-envelope icon-md"></i>
-                        </div>
-                        <div class="col-10">
-                            <h6 class="d-inline">Email :<br> <span class="text-muted">sharmajidurgesh04@gmail.com</span></h6>
-                        </div>
-                    </div>
-                    <ul class="social-icons pt-4">
-                        <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                        <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                        <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
-                        <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                        <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
-            </div>
+        <div class="skill-group">
+          <h3>Tooling &amp; DevOps</h3>
+          <ul class="chips">
+            <li>Git</li><li>GitLab</li><li>GitHub</li><li>Maven</li><li>Docker</li><li>Kubernetes</li><li>Linux</li>
+          </ul>
         </div>
-    </div>
-</div>
-<footer class="footer py-3">
-    <div class="container">
-        <p class="small mb-0 text-light">
-            &copy;
-            <script>document.write(new Date().getFullYear())</script> Built with ❤️ by 
-            <span class="text-danger">Durgesh Sharma</span>
-        </p>
-    </div>
-</footer>
+        <div class="skill-group">
+          <h3>Ways of working</h3>
+          <ul class="chips">
+            <li>Jira</li><li>Agile / Scrum</li><li>Code review</li><li>ADRs</li><li>AI-assisted dev (Claude Code)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-<!-- Core Libraries -->
-<script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-<script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <!-- PROJECTS -->
+    <section id="projects" class="section reveal">
+      <p class="label"><span>04</span> Personal projects</p>
+      <div class="work-head">
+        <h2 class="headline">Built after <span class="rose">hours</span>.</h2>
+        <a class="link mono" href="https://github.com/winter000boy" target="_blank" rel="noopener">All repos on GitHub ↗</a>
+      </div>
 
-<!-- Affix for Sticky Navbar -->
-<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+      <div class="projects">
+        <a class="project feature" href="https://github.com/winter000boy/Neuroflow-ERP" target="_blank" rel="noopener">
+          <div class="project-top"><span class="mono">ERP · 2025</span><span class="go">↗</span></div>
+          <h3>NeuroFlow ERP</h3>
+          <p>Institute management system — leads, students, batches, employees and placements, with JWT auth and role-based access control.</p>
+          <ul class="tags"><li>Spring Boot 3</li><li>Java 17</li><li>Angular</li><li>PostgreSQL</li><li>JWT · RBAC</li></ul>
+        </a>
+        <a class="project" href="https://github.com/winter000boy/hospitalmanagement" target="_blank" rel="noopener">
+          <div class="project-top"><span class="mono">Full-stack</span><span class="go">↗</span></div>
+          <h3>Hospital Management System</h3>
+          <p>Patients, doctors, appointments and billing on a layered Spring Boot backend.</p>
+          <ul class="tags"><li>Spring Boot</li><li>JPA</li><li>React</li></ul>
+        </a>
+        <a class="project" href="https://github.com/winter000boy/Chat-Application" target="_blank" rel="noopener">
+          <div class="project-top"><span class="mono">Real-time</span><span class="go">↗</span></div>
+          <h3>Real-time Chat</h3>
+          <p>Low-latency messaging over WebSockets with a SockJS fallback.</p>
+          <ul class="tags"><li>Spring</li><li>STOMP</li><li>SockJS</li></ul>
+        </a>
+        <a class="project" href="https://github.com/winter000boy/New-Supply-Chain-Blockchain" target="_blank" rel="noopener">
+          <div class="project-top"><span class="mono">Blockchain</span><span class="go">↗</span></div>
+          <h3>Supply-Chain on Blockchain</h3>
+          <p>Tamper-proof product tracking: smart contracts for ownership transfer and verification.</p>
+          <ul class="tags"><li>Smart contracts</li><li>JavaScript</li></ul>
+        </a>
+        <a class="project" href="https://github.com/winter000boy/AI-Powered-Call-Center" target="_blank" rel="noopener">
+          <div class="project-top"><span class="mono">AI · Voice</span><span class="go">↗</span></div>
+          <h3>AI Railway Call Center</h3>
+          <p>Voice assistant for train schedules and FAQs with speech-to-text and TTS.</p>
+          <ul class="tags"><li>Python</li><li>Gemini</li><li>Streamlit</li></ul>
+        </a>
+        <a class="project" href="https://github.com/winter000boy/calculatorapi" target="_blank" rel="noopener">
+          <div class="project-top"><span class="mono">API</span><span class="go">↗</span></div>
+          <h3>Calculator REST API</h3>
+          <p>A small, clean reference for REST endpoint design and backend logic in Spring Boot.</p>
+          <ul class="tags"><li>Java</li><li>Spring Boot</li></ul>
+        </a>
+      </div>
 
-<!-- Isotope Filtering -->
-<script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+      <div class="certs">
+        <p class="label small"><span>+</span> Certifications</p>
+        <ul>
+          <li>Advanced Data Structures &amp; Algorithms</li>
+          <li>Full Stack Web Development with Java — Udemy</li>
+        </ul>
+      </div>
+    </section>
 
-<!-- Portfolio Site Script -->
-<script src="assets/js/Durgesh.js"></script>
+    <!-- CONTACT -->
+    <section id="contact" class="section contact reveal">
+      <p class="label"><span>05</span> Contact</p>
+      <h2 class="display contact-title">
+        <span class="blue">LET'S BUILD</span>
+        <span class="rose">SOMETHING</span>
+      </h2>
+      <p class="lede">Open to backend, data-security and platform roles — and always happy to talk Java.</p>
+      <a class="mail" href="mailto:sharmajidurgesh04@gmail.com">sharmajidurgesh04@gmail.com</a>
+      <ul class="socials">
+        <li><a href="https://www.linkedin.com/in/sharmajidurgesh/" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+        <li><a href="https://github.com/winter000boy" target="_blank" rel="noopener">GitHub ↗</a></li>
+        <li><a href="assets/Durgesh-Sharma-Resume.pdf" download>Résumé ↓</a></li>
+      </ul>
+    </section>
+  </main>
 
+  <footer class="footer">
+    <span class="mono">© <span id="year">2026</span> Durgesh Sharma</span>
+    <span class="swatches" aria-label="Palette: Jet Black, Cerulean Blue, Neon Rose">
+      <i style="--c:#0A0A0A"></i><i style="--c:#007BA7"></i><i style="--c:#FF2D95"></i>
+    </span>
+    <a class="mono" href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
